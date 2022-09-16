@@ -104,7 +104,8 @@
     <p class="text" id="footnote_1"><small><sup>1</sup> Files: <samp>index.php</samp> and <samp>MAMP-PRO-Logo.png</samp></small></p>
     <hr />
     <p class="text">Diese Seite auf: <?php echo $str_available_languages; ?></p>
-
+    <p class=text>Alright this fucking works!</p>
+    <li><a href="lab02.php">Lab 2 here</a></li>
 <?php endif; ?>
 
 </body>

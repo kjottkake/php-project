@@ -13,14 +13,14 @@
 //number of emails
 //string that says you have X notifications
 <?php
-$username = "Maria";
+$username = "Jsaon";
 $numNotification = 23;
 $numEmail = 100;
 ?>
 
 
-<h1>Welcome </h1>
-
+<h1>Welcome <?php echo $username?></h1>
+<h2>You have <?php echo $numNotification?> notifications and <?php echo $numEmail?> emails.</h2>
 
 </body>
 </html>

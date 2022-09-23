@@ -23,7 +23,7 @@ $numEmail = 100;
 <h2>You have <?php echo $numNotification?> notifications and <?php echo $numEmail?> emails.</h2>
 
 <?php
-$G = 6.6743;
+$G = (6.6743 * (10**-11));
 
 $planets = array(
     array("Mercury",4879, 0.330),
@@ -36,8 +36,9 @@ $planets = array(
     array("Neptune", 49528, 102),
 );
 
-function surfaceGrav($m, $d) {
-    $g = ($G * $m)/($d/2); 
+function surfaceGrav($mass, $diameter) {
+    $r = ($diameter/2) ;
+    $g = ($G * $mass)/($r**2); 
     echo "deez nuts";
 }
 

@@ -8,25 +8,34 @@
 
 class Shape {
     //area property delecration 
-    private $area = 0;
+    public $area = 0;
 
     //methods
     public function setArea($a){
-        $w = 2;
-        $h = 2;
-        echo $a = $w * $h;
+        $this->area = $a;
     }
 
     public function getArea(){
-        echo "Area: " + $a;
+        
+        echo "Areaasadfsfd:" . $this->area;
     }
 
     public function calcArea(){
         $area = 0;
+        echo "Deez nuts!!!!!";
     }
-
-
 }
+
+
+$obj = new Shape;
+
+print_r($obj);
+
+// $obj->calcArea();
+
+$obj->getArea();
+$obj->setArea(5);
+$obj->getArea();
 
 
 ?>

@@ -23,6 +23,21 @@ $numEmail = 100;
 <h2>You have <?php echo $numNotification?> notifications and <?php echo $numEmail?> emails.</h2>
 
 <?php
+// from year 0 to 2022
+for (int $i = 0; i < 2022; i++) {
+    <option value="$i">$i</option>
+}
+
+
+
+?>
+
+
+
+
+
+
+<?php
 $G = (6.6743 * (10**-11));
 
 $planets = array(
